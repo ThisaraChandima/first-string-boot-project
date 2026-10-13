@@ -1,5 +1,9 @@
 package uk.ac.westminster.products_api;
 
+/**
+ * Product model.
+ * Encapsulated JavaBean where Jackson inspects public getters to serialize fields into JSON.
+ */
 public class Product {
     private Long id;
     private String name;
