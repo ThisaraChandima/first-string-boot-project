@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class InfoController {
-    @GetMapping("/info")
-    public String getInfo(){
-        return "my application is running!";
-    }
 
+    @GetMapping("/info")
+    public String getInfo() {
+        return "Products API — Westminster 5COSC019W Tutorial 1 Application";
+    }
 }
